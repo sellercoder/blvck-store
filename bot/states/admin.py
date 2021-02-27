@@ -62,6 +62,10 @@ class SetToken(StatesGroup):
     set_phone = State()
     set_token = State()
 
+class Cms(StatesGroup):
+    set_home = State()
+    set_catalog = State()
+    set_about = State()
 
 
 

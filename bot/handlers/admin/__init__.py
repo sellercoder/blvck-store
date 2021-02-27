@@ -1,3 +1,4 @@
+from .cms import dp
 from .panel import dp
 from .items import dp
 from .positions import dp
