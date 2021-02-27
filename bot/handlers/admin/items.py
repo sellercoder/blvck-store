@@ -4,7 +4,7 @@ from aiogram import types
 from aiogram.types import Message, CallbackQuery, ReplyKeyboardRemove, InputFile
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters import Text
-from states.admin import NewItem, DeleteItem
+from states.admin import NewItem, DeleteItem, ManyItems
 from keyboards.admin.items_menu import items_menu, file_ore_text_keyboard,confirm_keyboard,reusable_keyboard,change_item_menu
 from keyboards.admin.admin_menu import admin_menu
 from utils.db_api.models import Position, Category, Item
@@ -21,6 +21,35 @@ async def admin_positions_page(message: types.Message, state: FSMContext):
 	logger.info(f"{message.chat.first_name}-{message.text}")
 	text = f"{items_text}\n{get_items_page()}"
 	await message.answer(text=text, reply_markup=items_menu)
+
+@dp.callback_query_handler(user_id=ADMIN_ID, text_contains="multi", state="*")
+async def admin_itempage(call: CallbackQuery,state: FSMContext):
+	logger.info(f"{call.data}")
+	help_position_text = get_positions_help()
+	title = f"{info}\n"
+	info_text = f"<code>Для начала пришли ID позиции в которую хочешь добавить товар.</code>\n\n{help_position_text}"
+	await call.message.edit_text(text=title)
+	await call.message.answer(text=info_text, reply_markup=ReplyKeyboardRemove())
+	await ManyItems.PositionID.set()
+
+@dp.message_handler(user_id=ADMIN_ID, regexp=r"^(\d+)$", state=ManyItems.PositionID)
+async def enter_id(message: types.Message, state: FSMContext):
+	position_id = message.text
+	info_text = f"Теперь пришли мне сообщение, где каждая строчка - товар"
+	await ManyItems.SetLines.set()
+	await state.update_data(position_id=position_id)
+	await message.answer(text=info_text)
+
+@dp.message_handler(user_id=ADMIN_ID, state=ManyItems.SetLines)
+async def update_all(message: types.Message, state: FSMContext):
+	data = await state.get_data()
+	position_id = data.get("position_id")
+	f = message.text.split("\n")
+	for line in f:
+		print(line)
+		Item.create(position_id=position_id, body="{line}")
+	await state.reset_state()
+	await message.answer(text="Товары загружены - жми /admin")
 
 @dp.callback_query_handler(user_id=ADMIN_ID, text_contains="add_item", state="*")
 async def admin_add_item_page(call: CallbackQuery,state: FSMContext):

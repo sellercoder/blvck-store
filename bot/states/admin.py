@@ -54,6 +54,12 @@ class NewItem(StatesGroup):
     Reusable = State()
     Confirm = State()
 
+class ManyItems(StatesGroup):
+    PositionID = State()
+    SetLines = State()
+    Confirm = State()
+
+
 class DeleteItem(StatesGroup):
     Id = State()
     Confirm = State()

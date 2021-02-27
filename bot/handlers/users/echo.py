@@ -8,6 +8,7 @@ from loader import dp
 @dp.message_handler(state=None)
 async def bot_echo(message: types.Message):
     await message.answer(f"{message.text}")
+    print(message.text)
 
 # Эхо хендлер, куда летят ВСЕ сообщения с указанным состоянием
 @dp.message_handler(state="*", content_types=types.ContentTypes.ANY)

@@ -3,6 +3,9 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton,InlineKeyboardButt
 items_menu = InlineKeyboardMarkup(row_width=2)
 items_menu.insert(InlineKeyboardButton(text="🗑 Удалить", callback_data="delete_item"))
 items_menu.insert(InlineKeyboardButton(text="➕ Добавить", callback_data="add_item"))
+items_menu.insert(InlineKeyboardButton(text="Мультизагрузка", callback_data="multi"))
+
+
 
 file_ore_text_keyboard = InlineKeyboardMarkup(row_width=2)
 file_ore_text_keyboard.insert(InlineKeyboardButton(text="📁 Файл", callback_data="file"))
