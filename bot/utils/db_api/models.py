@@ -12,8 +12,13 @@ from orator.orm import scope
 
 line = "➖" * 11
 
+
 class User(Model):
 	__guarded__ = ['created_at', 'updated_at']
+
+	@has_many
+	def bills(self):
+		return Bill
 	
 	@has_many
 	def purchases(self):
@@ -221,6 +226,13 @@ class Token(Model):
 
 class Page(Model):
 	__guarded__ = ['created_at', 'updated_at']
+
+class Bill(Model):
+	@belongs_to
+	def user(self):
+		return User
+	__guarded__ = ['created_at', 'updated_at']
+
 
 
 

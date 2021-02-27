@@ -7,12 +7,15 @@ def wallet_keyboard():
 	markup = InlineKeyboardMarkup(row_width=2)
 
 	qiwi_button = "🥝 Qiwi"
+	qiwi_new_button = "🥝 Qiwi New"
 	cupon_button = "🎟 Ввести купон"
 	history_button = "📒 История платежей"
 	# 🎫
 
 	markup.insert(
 		InlineKeyboardButton(text=qiwi_button, callback_data="qiwi"))
+	markup.insert(
+		InlineKeyboardButton(text=qiwi_new_button, callback_data="qnew"))
 	markup.insert(
 		InlineKeyboardButton(text=cupon_button, callback_data="coupon"))
 	markup.insert(

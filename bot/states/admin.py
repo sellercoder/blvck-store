@@ -73,6 +73,10 @@ class Cms(StatesGroup):
     set_catalog = State()
     set_about = State()
 
+class QiwiBill(StatesGroup):
+    get_url = State()
+
+
 
 
 

@@ -4,14 +4,16 @@ from utils.tools.tables import payments_report
 from utils.misc.logging import *
 from money import Money
 from aiogram.dispatcher import FSMContext
-from states.admin import ActivateCoupon
+from states.admin import ActivateCoupon, QiwiBill
 from aiogram.dispatcher.filters import Command, Text
 from aiogram import types
+from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.types import Message, CallbackQuery, ReplyKeyboardRemove
 from keyboards.inline.wallet_menu import wallet_keyboard, check_qiwi_pay_keyboard
 from utils.db_api.models import User
 from utils.db_api.db_commands import find_user, add_money, check_success_payment, add_payment, activate_coupon
 from utils.payments.qiwi import phone, create_bill, check_bill, get_payments
+from utils.payments.qiwinew import *
 
 from loader import dp, bot
 
@@ -24,8 +26,8 @@ def wallet_bill_text(comment):
 	return f"{line}\n<b>◻️ Cпособ пополнения:</b> 🥝 Qiwi\n<b>◻️ Комментарий:</b> {comment}\n<b>◻️ Телефон:</b> {phone}\n{line}\n<code>💬 Переведите на указанный номер необходимую сумму. Обязательно укажите комментарий! После перевода, нажмите кнопку Проверить оплату.</code>"
 
 def succes_payment_message(amount):
-	m = Money(amount, 'RUB')
-	frmt = m.format('ru_RU',currency_digits=False)	
+	m = Money(amount, 'KZT')
+	frmt = m.format('kk_KZT',currency_digits=False)	
 	return f"Платеж на сумму {frmt} обнаружен. {frmt} зачислены на ваш кошелек"
 
 
@@ -39,6 +41,63 @@ async def menu(message: Message):
 	markup = wallet_keyboard()
 
 	await message.answer(text, reply_markup=markup)
+
+
+@dp.callback_query_handler(text_contains="qnew")
+async def newbill(call: CallbackQuery):
+	info_text = f"{info}"
+	await call.answer(cache_time=1)
+	await call.message.edit_text(text=info_text)
+	await call.message.answer(text=f"{line}\n<b>Укажите сумму платежа:</b>\n{line}", reply_markup=ReplyKeyboardRemove())
+	await QiwiBill.get_url.set()
+
+
+# @dp.message_handler(state=QiwiBill.get_url)
+@dp.message_handler(regexp=r"^(\d+)$", state=QiwiBill.get_url)
+async def enter_id(message: types.Message, state: FSMContext):
+	value = message.text
+	uid = message.chat.id
+	message_id = message.message_id
+	p = new_bill(value)
+	billid = p['billId']
+	m = Money(p['amount']['value'], 'KZT')
+	frmt = m.format('kk_KZ',currency_digits=False)
+	markup = InlineKeyboardMarkup(row_width=1)
+	pay_button = InlineKeyboardButton(text=f"Оплатить {frmt}", url=f"{p['payUrl']}")
+	check_button = InlineKeyboardButton(text=f"Проверить оплату", callback_data=f"xxx:{billid}")
+	markup.insert(pay_button)
+	markup.insert(check_button)
+
+	await message.answer(f"<b>📄 Вам выставлен счет на сумму {frmt}</b>.\n\nПосле оплаты, проверка не требуется. Система автоматически проверить пополнение и зачислит средства на счет",reply_markup=markup)
+
+	await state.reset_state()
+
+
+@dp.message_handler(state=QiwiBill.get_url)
+async def input_coupon_uid_handler(message: types.Message, state: FSMContext):
+	await message.answer("Сумму нужно указать цифрами.")
+
+
+
+@dp.callback_query_handler(text_contains="xxx")
+async def rtsr(call: CallbackQuery):
+	user_uid = call.message.chat.id
+	user = find_user(user_uid)
+	bill = call.data.split(':')[1]
+	pp = status_bill(bill)
+	if pp['status']['value'] == "WAITING":
+		text="Платеж в системе не обнаружен!"
+		logger.info(f"{text}")
+		await call.answer(cache_time=1, text=text, show_alert=True)
+	else:
+		user_id = user.id
+		amount = float(pp['amount']['value'])
+		add_money(user_id,amount)
+		text=f"<b>Сумма {pp['amount']['value']} зачислена на ваш счет! Нажмите</b> /start" 
+		logger.info(f"text")
+		await state.reset_state()
+		await call.message.edit_text(text=text)
+
 
 @dp.callback_query_handler(text_contains="qiwi")
 async def bill(call: CallbackQuery):
