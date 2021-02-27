@@ -1,0 +1,1810 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ma",
+				"mamonts"
+			],
+			[
+				"he",
+				"hello_text_body"
+			],
+			[
+				"c",
+				"code"
+			],
+			[
+				"to",
+				"token_obj"
+			],
+			[
+				"toke",
+				"token"
+			],
+			[
+				"in",
+				"info_text"
+			],
+			[
+				"set",
+				"set_token"
+			],
+			[
+				"ad",
+				"admin_wallet_menu"
+			],
+			[
+				"cha",
+				"chat_id"
+			],
+			[
+				"ph",
+				"phone"
+			],
+			[
+				"ac",
+				"accept_user"
+			],
+			[
+				"ht",
+				"html_content"
+			],
+			[
+				"pa",
+				"pages"
+			],
+			[
+				"a",
+				"author_name"
+			],
+			[
+				"Sellr",
+				"Sellercoder"
+			],
+			[
+				"get_acc",
+				"get_account_info"
+			],
+			[
+				"te",
+				"telegraph"
+			],
+			[
+				"cata",
+				"catalog_page_text"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"HELLO_TEXT_",
+				"HELLO_TEXT_TITLE"
+			],
+			[
+				"HE",
+				"HELLO_TEXT_BODY"
+			],
+			[
+				"ui",
+				"uid"
+			],
+			[
+				"for",
+				"for_admin_page"
+			],
+			[
+				"pu",
+				"purchase"
+			],
+			[
+				"pur",
+				"purch_list"
+			],
+			[
+				"PAY",
+				"payments"
+			],
+			[
+				"get",
+				"get_dt"
+			],
+			[
+				"fo",
+				"formated_balance"
+			],
+			[
+				"usr",
+				"users"
+			],
+			[
+				"pag",
+				"page_new_file_menu"
+			],
+			[
+				"r",
+				"ReplyKeyboardRemove"
+			],
+			[
+				"vip",
+				"vip_status"
+			],
+			[
+				"u",
+				"uid"
+			],
+			[
+				"In",
+				"InlineKeyboardButton"
+			],
+			[
+				"me",
+				"message"
+			],
+			[
+				"wo",
+				"worker"
+			],
+			[
+				"mam",
+				"mamont"
+			],
+			[
+				"mamon",
+				"mamonts"
+			],
+			[
+				"wh",
+				"where"
+			],
+			[
+				"re",
+				"register_user_from_worker"
+			],
+			[
+				"с",
+				"страницы"
+			],
+			[
+				"pro",
+				"profile_page"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"mm",
+				"mamonts"
+			],
+			[
+				"worke",
+				"workers"
+			],
+			[
+				"s",
+				"split"
+			],
+			[
+				"str",
+				"string"
+			],
+			[
+				"bo",
+				"bot_name"
+			],
+			[
+				"st",
+				"string2"
+			],
+			[
+				"sr",
+				"srv"
+			],
+			[
+				"ser",
+				"service"
+			],
+			[
+				"ca",
+				"callback"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"cl",
+				"callback"
+			],
+			[
+				"list",
+				"list_actions"
+			],
+			[
+				"se",
+				"service"
+			],
+			[
+				"au",
+				"auth_menu"
+			],
+			[
+				"back",
+				"background\tproperty"
+			],
+			[
+				"bor",
+				"border\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"worker",
+				"worker_menu"
+			],
+			[
+				"Ge",
+				"get_workers"
+			],
+			[
+				"wor",
+				"worker"
+			],
+			[
+				"find",
+				"find_user"
+			],
+			[
+				"S",
+				"StatesGroup"
+			],
+			[
+				"cla",
+				"callback_data"
+			],
+			[
+				"Ab",
+				"AboutPage"
+			],
+			[
+				"ch",
+				"check_work_request_count"
+			],
+			[
+				"w",
+				"works_request_id"
+			],
+			[
+				"cn",
+				"cancel_button"
+			],
+			[
+				"work",
+				"work_requests_button"
+			],
+			[
+				"sen",
+				"second_q"
+			],
+			[
+				"ab",
+				"about_page_title"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"bac",
+				"back_menu"
+			],
+			[
+				"po",
+				"promotion_page_menu"
+			],
+			[
+				"p",
+				"profile_page_text"
+			],
+			[
+				"profile_page_",
+				"profile_page_title"
+			],
+			[
+				"inputQi",
+				"inputQiwiToken"
+			],
+			[
+				"ou",
+				"output2"
+			],
+			[
+				"ite",
+				"get_items_page"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"paym",
+				"payments"
+			],
+			[
+				"co",
+				"Coupon"
+			],
+			[
+				"Co",
+				"config"
+			],
+			[
+				"St",
+				"State"
+			],
+			[
+				"admin",
+				"admin_add_coupon_page"
+			],
+			[
+				"C",
+				"NewCoupon"
+			],
+			[
+				"юЗ",
+				"Юзера"
+			],
+			[
+				"first",
+				"first_or_create"
+			],
+			[
+				"add_",
+				"add_money"
+			],
+			[
+				"cate",
+				"category_id"
+			],
+			[
+				"Cate",
+				"CategoryID"
+			],
+			[
+				"пРИ",
+				"Пришли"
+			],
+			[
+				"cu",
+				"current_position"
+			],
+			[
+				"CAT",
+				"CategoryID"
+			],
+			[
+				"posi",
+				"position_id"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"positions",
+				"positions"
+			],
+			[
+				"de",
+				"description"
+			],
+			[
+				"name",
+				"Name"
+			],
+			[
+				"categ",
+				"category_id"
+			],
+			[
+				"con",
+				"confirm"
+			],
+			[
+				"не",
+				"несколько"
+			],
+			[
+				"lo",
+				"logger"
+			],
+			[
+				"Con",
+				"ContentType"
+			],
+			[
+				"It",
+				"Item"
+			],
+			[
+				"text",
+				"text"
+			],
+			[
+				"fir",
+				"file_ore_text_keyboard"
+			],
+			[
+				"cal",
+				"clean_string"
+			],
+			[
+				"pois",
+				"position_id"
+			],
+			[
+				"pis",
+				"position"
+			],
+			[
+				"i",
+				"items_menu"
+			],
+			[
+				"pi",
+				"position"
+			],
+			[
+				"cat",
+				"categories_menu"
+			],
+			[
+				"admi",
+				"admin_page"
+			],
+			[
+				"sum",
+				"summary_text"
+			],
+			[
+				"add",
+				"add_money"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"che",
+				"check_bill"
+			],
+			[
+				"QI",
+				"QIWI_PHONE"
+			],
+			[
+				"qiw",
+				"qiwi_phone"
+			],
+			[
+				"qi",
+				"qiwi_number"
+			],
+			[
+				"wa",
+				"wallet_page_info_text"
+			],
+			[
+				"purchase_",
+				"purchases_page_text"
+			],
+			[
+				"purch",
+				"purchase"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sheme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"the",
+				"UI: Select Theme"
+			],
+			[
+				"them",
+				"UI: Select Theme"
+			],
+			[
+				"lore",
+				"LoremIpsum: (30) lots"
+			],
+			[
+				"lo",
+				"LoremIpsum: (30) lots"
+			],
+			[
+				"pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"ht",
+				"HTMLPrettify"
+			],
+			[
+				"htmlpre",
+				"HTMLPrettify"
+			],
+			[
+				"pret",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Activate Materialize Theme"
+			],
+			[
+				"htm",
+				"HTMLBeautify"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"she",
+				"UI: Select Color Scheme"
+			],
+			[
+				"sett",
+				"Preferences: Settings"
+			],
+			[
+				"settin",
+				"Preferences: Settings"
+			],
+			[
+				"shem",
+				"UI: Select Color Scheme"
+			],
+			[
+				"theme",
+				"Activate Materialize Theme"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"lroe",
+				"LoremIpsum: (15) some"
+			],
+			[
+				"loer",
+				"LoremIpsum: (30) lots"
+			],
+			[
+				"loe",
+				"LoremIpsum: (15) some"
+			],
+			[
+				"LLO",
+				"LoremIpsum: (30) lots"
+			],
+			[
+				"LOR",
+				"LoremIpsum: (200) stick shake"
+			],
+			[
+				"th",
+				"Terminus Utilities: Remove User Theme"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ana",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"shee",
+				"UI: Select Color Scheme"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"lor",
+				"LoremIpsum: (15) some"
+			],
+			[
+				"terminus",
+				"Terminus: Close All"
+			],
+			[
+				"termi",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"l",
+				"LoremIpsum: (15) some"
+			],
+			[
+				"snippe",
+				"Snippet: Try/Except/Else"
+			],
+			[
+				"snipp",
+				"Snippet: New Class"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"term",
+				"Terminus: Reset"
+			],
+			[
+				"ter",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"color p",
+				"Color Picker"
+			],
+			[
+				"termin",
+				"Terminus Utilities: Generate User Theme"
+			],
+			[
+				"terminu",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"keyb",
+				"Preferences: Key Bindings"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"gene",
+				"Colored Comments: Remove Generated Color Scheme"
+			],
+			[
+				"sheem",
+				"UI: Select Color Scheme"
+			],
+			[
+				"colore",
+				"Colored Comments: Clear Colorization"
+			],
+			[
+				"colored",
+				"Colored Comments: Settings"
+			],
+			[
+				"colorp",
+				"Color Picker"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"SHEME",
+				"UI: Select Color Scheme"
+			],
+			[
+				"thee",
+				"UI: Select Theme"
+			],
+			[
+				"colorshe",
+				"UI: Select Color Scheme"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ui",
+				"UI: Select Theme"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"thme",
+				"UI: Select Theme"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"THEM",
+				"gruvbox: Select Theme"
+			],
+			[
+				"TH",
+				"UI: Select Theme"
+			],
+			[
+				"THEME",
+				"UI: Select Theme"
+			],
+			[
+				"GUNA",
+				"Guna"
+			],
+			[
+				"tehem",
+				"Terminus Utilities: Select Theme"
+			],
+			[
+				"gru",
+				"gruvbox: Select Theme"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"close",
+				"Terminus: Close"
+			],
+			[
+				"color",
+				"Colored Comments: Generate Color Scheme"
+			],
+			[
+				"colo",
+				"Colored Comments: Generate Color Scheme"
+			],
+			[
+				"comme",
+				"Colored Comments: Generate Color Scheme"
+			],
+			[
+				"comm",
+				"Colored Comments: Generate Color Scheme"
+			],
+			[
+				"mar",
+				"MarkdownEditing: New Reference"
+			],
+			[
+				"code",
+				"Snippet: Markdown Codeblock"
+			],
+			[
+				"toog",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"sinp",
+				"Snippet: html"
+			],
+			[
+				"pro",
+				"Project Manager"
+			],
+			[
+				"maker",
+				"ProjectMaker: Create project"
+			],
+			[
+				"project",
+				"ProjectMaker: Create project"
+			],
+			[
+				"clas",
+				"Snippet: New Class"
+			],
+			[
+				"todo",
+				"Set Syntax: ToDone"
+			],
+			[
+				"open",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"proje",
+				"Project: Edit"
+			],
+			[
+				"image",
+				"MarkdownEditing: New Image"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"editi",
+				"MarkdownEditing: Change color scheme..."
+			],
+			[
+				"list",
+				"MarkdownEditing: List Back Links"
+			],
+			[
+				"link",
+				"MarkdownEditing: New Inline Link"
+			],
+			[
+				"mar code",
+				"Snippet: Markdown Codeblock"
+			],
+			[
+				"projects",
+				"Preferences: Project Manager Settings"
+			],
+			[
+				"projec",
+				"Project Manager"
+			],
+			[
+				"add ",
+				"Project: Add Folder"
+			],
+			[
+				"act",
+				"ayu: Activate theme"
+			],
+			[
+				"gener",
+				"Colored Comments: Generate Color Scheme"
+			],
+			[
+				"gr",
+				"gruvbox: Select Theme"
+			],
+			[
+				"book",
+				"Bookmarks: Clear All"
+			],
+			[
+				"open f",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"edit",
+				"Project: Edit Project"
+			],
+			[
+				"clo",
+				"Project: Close"
+			],
+			[
+				"ym",
+				"Set Syntax: YAML"
+			],
+			[
+				"open file",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"browser",
+				"Browse Mode: Left Sidebar"
+			],
+			[
+				"side",
+				"Browse Mode: Right Sidebar"
+			],
+			[
+				"prefe",
+				"Preferences: Settings"
+			],
+			[
+				"proj",
+				"Project Manager: Rename Project"
+			],
+			[
+				"op",
+				"Project Manager: Open Project"
+			],
+			[
+				"pick",
+				"Color Picker"
+			],
+			[
+				"brow",
+				"Browse Mode..."
+			],
+			[
+				"bro\t",
+				"Browse Mode..."
+			],
+			[
+				"pm",
+				"Preferences: Project Manager Settings"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"fold",
+				"Project: Add Folder"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"edi",
+				"Preferences: MarkdownEditing Settings – Default"
+			],
+			[
+				"add",
+				"Project Manager: Add New Project"
+			],
+			[
+				"crea",
+				"ProjectMaker: Create project"
+			],
+			[
+				"remove p",
+				"Project Manager: Remove Project"
+			],
+			[
+				"new",
+				"Project Manager: Add New Project"
+			],
+			[
+				"ope",
+				"Project Manager: Open Project"
+			],
+			[
+				"cloe",
+				"Project: Close"
+			],
+			[
+				"p",
+				"Project Manager"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"work",
+				"EasyWorkspace: Show Opened Workspaces"
+			],
+			[
+				"file",
+				"File: Search Files"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"pr",
+				"Project: Close"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 190.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/ben/work/code/projects/blvck"
+	],
+	"file_history":
+	[
+		"/home/ben/work/code/projects/blvck/README.md",
+		"/home/ben/work/code/projects/tg-store/project/bot/keyboards/inline/catalog_menu.py",
+		"/home/ben/work/code/projects/tg-store/project/bot/README.md",
+		"/home/ben/work/code/projects/tg-store/project/bot/requirements.txt",
+		"/home/ben/work/code/projects/tg-store/project/bot/sender.py",
+		"/home/ben/work/code/projects/tg-store/project/bot/handlers/admin/items.py",
+		"/home/ben/work/code/projects/tg-store/project/bot/handlers/users/wallet.py",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/handlers/users/wallet.py",
+		"/home/ben/work/code/projects/tg-store/project/bot/utils/payments/qiwi.py",
+		"/home/ben/work/code/projects/robin/bot/utils/db_api/db_commands.py",
+		"/home/ben/work/code/projects/robin/bot/handlers/admin/page_mamonts.py",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/utils/db_api/seeds/demo_store_seeder.py",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/handlers/users/catalog.py",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/utils/texts.py",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/handlers/users/start.py",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/handlers/users/about.py",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/utils/db_api/migrations/2021_02_26_162739_create_pages_table.py",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/utils/db_api/models.py",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/handlers/admin/panel.py",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/handlers/admin/items.py",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/states/admin.py",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/keyboards/admin/admin_menu.py",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/utils/db_api/seeds/token_seeder.py",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/data/config.py",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/utils/db_api/admin_db_commands.py",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/.env",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/utils/payments/qiwi.py",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/utils/db_api/migrations/2021_02_26_142241_create_tokens_table.py",
+		"/home/ben/work/code/projects/robin/bot/handlers/users/bid.py",
+		"/home/ben/work/code/projects/robin/fish/main.py",
+		"/home/ben/work/code/projects/robin/fish/db_api/models.py",
+		"/home/ben/work/code/projects/robin/bot/db_api.py",
+		"/home/ben/work/code/lab/telegraph/app.py",
+		"/home/ben/work/code/projects/robin/bot/handlers/users/start.py",
+		"/home/ben/work/code/projects/robin/bot/.env",
+		"/home/ben/work/code/projects/tg-store/project/bot/.env",
+		"/home/ben/work/code/projects/tg-store/alibovk/docker-compose.yml",
+		"/home/ben/work/code/projects/tg-store/alibovk/site/index.html",
+		"/home/ben/work/code/projects/tg-store/alibovk/README.md",
+		"/home/ben/work/code/projects/robin/docker-compose.yml",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/Makefile",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/utils/db_api/seeds/cleaner_seeder.py",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/utils/db_api/seeds/clean_transactions_seeder.py",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/.gitignore",
+		"/home/ben/work/code/projects/tg-store/project/bot/utils/db_api/models.py",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/utils/db_api/db_commands.py",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/utils/db_api/migrations/2021_02_26_050123_add_username_to_users.py",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/example.env",
+		"/home/ben/work/code/projects/tg-store/alibovk/bot/loader.py",
+		"/home/ben/work/code/projects/tg-store/project/bot/utils/db_api/admin_db_commands.py",
+		"/home/ben/work/code/projects/tg-store/project/bot/handlers/admin/panel.py",
+		"/home/ben/work/code/projects/tg-store/project/bot/handlers/admin/users.py",
+		"/home/ben/work/code/projects/tg-store/project/bot/utils/db_api/db_commands.py",
+		"/home/ben/work/code/projects/tg-store/docs/dev/material/overrides/home.html",
+		"/home/ben/work/code/projects/tg-store/docs/dev/mkdocs.yml",
+		"/home/ben/work/code/projects/tg-store/project/README.md",
+		"/home/ben/work/code/projects/build/docker-compose.yml",
+		"/home/ben/work/code/projects/robin/bot/handlers/users/page_profile.py",
+		"/home/ben/work/code/projects/robin/bot/handlers/admin/page_file.py",
+		"/home/ben/work/code/projects/robin/bot/handlers/admin/panel.py",
+		"/home/ben/work/code/projects/robin/bot/handlers/admin/page_about.py",
+		"/home/ben/work/code/projects/robin/bot/handlers/admin/page_add_vip.py",
+		"/home/ben/work/code/projects/robin/bot/handlers/admin/page_mailing.py",
+		"/home/ben/work/code/projects/robin/bot/handlers/admin/page_main.py",
+		"/home/ben/work/code/projects/robin/bot/handlers/admin/page_requests.py",
+		"/home/ben/work/code/projects/tg-store/project/bot/handlers/admin/categories.py",
+		"/home/ben/work/code/projects/robin/bot/handlers/admin/page_vip.py",
+		"/home/ben/work/code/projects/robin/bot/handlers/admin/page_workers.py",
+		"/home/ben/work/code/projects/robin/fish/db_api/migrations/2021_02_20_080309_create_table_logs.py",
+		"/home/ben/work/code/projects/robin/bot/keyboards/admin/menu.py",
+		"/home/ben/work/code/projects/robin/bot/states/admin.py",
+		"/home/ben/work/code/projects/robin/bot/utils/db_api/models.py",
+		"/home/ben/work/code/projects/robin/fish/templates/tt2.html",
+		"/home/ben/work/code/projects/robin/fish/templates/instagram.html",
+		"/home/ben/work/code/projects/robin/fish/templates/tt_base.html",
+		"/home/ben/work/code/projects/robin/fish/templates/tt.html",
+		"/home/ben/work/code/projects/robin/fish/static/css/tt.css",
+		"/home/ben/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/home/ben/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/home/ben/work/code/projects/robin/bot/handlers/admin/__init__.py",
+		"/home/ben/work/code/projects/robin/bot/utils/db_api/migrations/2021_02_24_034201_create_table_files.py",
+		"/home/ben/work/code/projects/robin/bot/utils/db_api/migrations/2021_02_23_125849_add_vip_to_users.py",
+		"/home/ben/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/ben/work/code/projects/robin/bot/states/user.py",
+		"/home/ben/work/code/projects/robin/bot/keyboards/worker/menu.py",
+		"/home/ben/work/code/projects/robin/bot/keyboards/inline/menu.py",
+		"/home/ben/work/code/projects/robin/bot/README.md",
+		"/home/ben/work/code/projects/robin/bot/utils/db_api/migrations/2021_02_23_012731_add_refcols_to_users_table.py",
+		"/home/ben/work/code/projects/robin/bot/app.py",
+		"/home/ben/work/code/projects/robin/bot/handlers/users/page_promotion.py",
+		"/home/ben/work/code/projects/robin/bot/utils/db_api/migrations/2021_02_22_164558_create_table_vip_pages.py",
+		"/home/ben/work/code/projects/robin/bot/utils/texts.py",
+		"/home/ben/work/code/projects/robin/bot/utils/db_api/migrations/2021_02_22_160651_create_table_main_pages.py",
+		"/home/ben/work/code/projects/robin/wiki/mkdocs.yml",
+		"/home/ben/work/code/projects/robin/wiki/docs/index.md",
+		"/home/ben/work/code/projects/robin/wiki/docs/modules.md",
+		"/home/ben/work/code/projects/robin/wiki/requirements.txt",
+		"/home/ben/work/code/projects/robin/docker.yml",
+		"/home/ben/work/code/projects/robin/m.yml\n",
+		"/home/ben/work/code/projects/robin/site/Dockerfile",
+		"/home/ben/work/code/projects/robin/site",
+		"/home/ben/work/code/lab/api/Dockerfile",
+		"/home/ben/work/code/lab/web/Dockerfile",
+		"/home/ben/work/code/projects/robin/wiki/Dockerfile",
+		"/home/ben/work/code/projects/robin/fish/templates/base.html",
+		"/home/ben/work/code/projects/robin/fish/static/css/style.css",
+		"/home/ben/work/code/projects/sellercoder.github.io/_layouts/base.html",
+		"/home/ben/work/code/projects/sellercoder.github.io/index.html",
+		"/home/ben/work/code/projects/sellercoder.github.io/_includes/head.html",
+		"/home/ben/work/code/projects/sellercoder.github.io/_includes/header.html",
+		"/home/ben/Загрузки/startbootstrap-coming-soon-gh-pages/index.html",
+		"/home/ben/work/code/projects/robin/fish/static/css/bootstrap.min.css",
+		"/home/ben/Загрузки/startbootstrap-coming-soon-gh-pages/vendor/bootstrap/css/bootstrap.min.css",
+		"/home/ben/Загрузки/startbootstrap-coming-soon-gh-pages/css/coming-soon.css",
+		"/home/ben/Загрузки/startbootstrap-the-big-picture-gh-pages/css/the-big-picture.css",
+		"/home/ben/work/code/projects/robin/fish/templates/index.html",
+		"/home/ben/Загрузки/startbootstrap-the-big-picture-gh-pages/vendor/bootstrap/css/bootstrap.min.css",
+		"/home/ben/work/code/projects/robin/fish/static/css/bt.css",
+		"/home/ben/Загрузки/startbootstrap-the-big-picture-gh-pages/index.html",
+		"/home/ben/work/code/projects/robin/README.md",
+		"/home/ben/work/code/projects/tg-store/docs/dev/deploy.sh",
+		"/home/ben/work/code/projects/s-bot/bot/.env",
+		"/home/ben/work/code/projects/s-bot/bot/handlers/admin/page_mamonts.py",
+		"/home/ben/work/code/projects/s-bot/bot/handlers/admin/page_mailing.py",
+		"/home/ben/work/code/projects/s-bot/bot/handlers/users/bid.py",
+		"/home/ben/work/code/projects/s-bot/bot/handlers/admin/__init__.py",
+		"/home/ben/work/code/projects/s-bot/bot/utils/db_api/db_commands.py",
+		"/home/ben/work/code/projects/s-bot/bot/handlers/admin/page_workers.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 146.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"QIWI",
+			".env",
+			"env",
+			"()\n",
+			"option",
+			"style",
+			"head>",
+			"head",
+			"style",
+			"файл",
+			")\n",
+			"fdcb6e",
+			" ;",
+			"cd9557",
+			"ba7c37",
+			"cd9557",
+			"fdcb6e",
+			"bd-placeholder-img",
+			"scam_db",
+			"mhead",
+			"layout",
+			"favic",
+			"works",
+			"banner",
+			")  ",
+			"left",
+			"! ",
+			"Posit",
+			"useri",
+			"Category",
+			"lint",
+			"Item",
+			"True",
+			"Seeder",
+			"Python",
+			"}\"",
+			"materia",
+			"Амфетамин",
+			"boolean",
+			"товаров",
+			"хуй",
+			"создан",
+			"Отмена",
+			"Каталог",
+			"env",
+			"configs",
+			"contex",
+			"main",
+			"stat",
+			"Категории",
+			"Section1",
+			"con",
+			"config",
+			"()",
+			"}\")",
+			"print(",
+			"print",
+			"answer_callback_query",
+			"markup",
+			"):\n",
+			"cf",
+			"ошелек",
+			"ctrl+e",
+			"ctrl+x",
+			"toggle",
+			"word",
+			"Добро",
+			"purchases_body",
+			"mark",
+			"parse",
+			"import",
+			"manager",
+			"plasma",
+			"gas",
+			"liquid",
+			"solid",
+			"serialize",
+			"belongs_to"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 62.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Terminus":
+	{
+		"height": 345.0
+	},
+	"output.Terminus 2":
+	{
+		"height": 178.0
+	},
+	"output.exec":
+	{
+		"height": 144.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mde":
+	{
+		"height": 180.0
+	},
+	"pinned_build_system": "Anaconda Python Builder",
+	"project": "blvck.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"wall",
+				"alibovk/bot/handlers/users/wallet.py"
+			],
+			[
+				"qiwi",
+				"bot/utils/payments/qiwi.py"
+			],
+			[
+				"handele",
+				"bot/handlers/admin/items.py"
+			],
+			[
+				"mode",
+				"alibovk/bot/utils/db_api/models.py"
+			],
+			[
+				"admi",
+				"bot/utils/db_api/admin_db_commands.py"
+			],
+			[
+				"db",
+				"bot/utils/db_api/db_commands.py"
+			],
+			[
+				"admin",
+				"bot/utils/db_api/admin_db_commands.py"
+			],
+			[
+				"moe",
+				"project/bot/utils/db_api/models.py"
+			],
+			[
+				"home",
+				"docs/dev/material/overrides/home.html"
+			],
+			[
+				"logs",
+				"fish/db_api/migrations/2021_02_20_080309_create_table_logs.py"
+			],
+			[
+				"create",
+				"bot/utils/db_api/migrations/2021_02_24_034201_create_table_files.py"
+			],
+			[
+				"mo",
+				"fish/db_api/models.py"
+			],
+			[
+				"state",
+				"bot/states/admin.py"
+			],
+			[
+				"menu",
+				"bot/keyboards/admin/menu.py"
+			],
+			[
+				"mail",
+				"bot/handlers/admin/page_mailing.py"
+			],
+			[
+				"db_c",
+				"bot/utils/db_api/db_commands.py"
+			],
+			[
+				"db_",
+				"bot/utils/db_api/db_commands.py"
+			],
+			[
+				"model",
+				"s-bot/bot/utils/db_api/models.py"
+			],
+			[
+				"page_",
+				"s-bot/bot/handlers/admin/page_mailing.py"
+			],
+			[
+				"start",
+				"s-bot/bot/handlers/users/start.py"
+			],
+			[
+				"positi",
+				"bot-store/bot/handlers/admin/positions.py"
+			],
+			[
+				"items",
+				"bot-store/bot/handlers/admin/items.py"
+			],
+			[
+				"wallet",
+				"bot-store/bot/handlers/users/wallet.py"
+			],
+			[
+				"table",
+				"bot-store/bot/utils/tools/tables.py"
+			],
+			[
+				"paymen",
+				"bot-store/bot/utils/db_api/migrations/2021_02_11_122238_create_payments_table.py"
+			],
+			[
+				"demo",
+				"bot/utils/db_api/seeds/demo_store_seeder.py"
+			],
+			[
+				"walle",
+				"bot/handlers/users/wallet.py"
+			],
+			[
+				"users",
+				"bot/keyboards/admin/users_menu.py"
+			],
+			[
+				"payme",
+				"bot/utils/db_api/migrations/2021_02_11_122238_create_payments_table.py"
+			],
+			[
+				"qiw",
+				"bot/utils/payments/qiwi.py"
+			],
+			[
+				"md",
+				"README.md"
+			],
+			[
+				"models.",
+				"bot-store/bot/utils/db_api/models.py"
+			],
+			[
+				"RC_ST",
+				"bot-store/bot/utils/db_api/seeds/rc_store_seeder.py"
+			],
+			[
+				"pos",
+				"bot/handlers/admin/positions.py"
+			],
+			[
+				"posi",
+				"bot/keyboards/admin/positions_menu.py"
+			],
+			[
+				"cate",
+				"bot/handlers/admin/categories.py"
+			],
+			[
+				"cata",
+				"bot/keyboards/inline/catalog_menu.py"
+			],
+			[
+				"ad",
+				"bot/utils/db_api/admin_db_commands.py"
+			],
+			[
+				"ite",
+				"bot/handlers/admin/items.py"
+			],
+			[
+				"panle",
+				"bot/handlers/admin/panel.py"
+			],
+			[
+				"me",
+				"bot/keyboards/admin/items_menu.py"
+			],
+			[
+				"cleaner",
+				"bot/utils/db_api/seeds/cleaner_seeder.py"
+			],
+			[
+				"env",
+				"bot/.env"
+			],
+			[
+				"iet",
+				"bot/handlers/admin/items.py"
+			],
+			[
+				"rc",
+				"bot-store/bot/utils/db_api/seeds/rc_store_seeder.py"
+			],
+			[
+				"item",
+				"bot-store/bot/utils/db_api/migrations/2021_02_07_131126_create_items_table.py"
+			],
+			[
+				"purc",
+				"bot-store/bot/utils/db_api/migrations/2021_02_09_133630_create_purchases_table.py"
+			],
+			[
+				"purch",
+				"bot-store/bot/keyboards/inline/purchases_menu.py"
+			],
+			[
+				"states",
+				"bot-store/bot/states/admin.py"
+			],
+			[
+				"admin_",
+				"bot-store/bot/utils/db_api/admin_db_commands.py"
+			],
+			[
+				"app",
+				"bot-store/bot/app.py"
+			],
+			[
+				"cat",
+				"bot-store/bot/handlers/admin/categories.py"
+			],
+			[
+				"ca",
+				"bot-store/bot/handlers/users/catalog.py"
+			],
+			[
+				"seed",
+				"bot-store/bot/utils/db_api/seeds/database_seeder.py"
+			],
+			[
+				"men",
+				"bot-store/bot/keyboards/admin/positions_menu.py"
+			],
+			[
+				"wal",
+				"bot-store/bot/handlers/users/wallet.py"
+			],
+			[
+				"panel",
+				"bot-store/bot/handlers/admin/panel.py"
+			],
+			[
+				"logg",
+				"bot-store/bot/utils/misc/logging.py"
+			],
+			[
+				"pa",
+				"bot-store/bot/handlers/admin/panel.py"
+			],
+			[
+				"insl",
+				"bot-store/bot/keyboards/inline/purchases_menu.py"
+			],
+			[
+				"db_com",
+				"bot-store/bot/utils/db_api/db_commands.py"
+			],
+			[
+				"make",
+				"bot-store/bot/Makefile"
+			],
+			[
+				"data",
+				"bot-store/bot/utils/db_api/seeds/database_seeder.py"
+			],
+			[
+				"abo",
+				"bot-store/bot/handlers/users/about.py"
+			],
+			[
+				"en",
+				"bot-store/api/.env"
+			],
+			[
+				"tst",
+				"bot-store/bot/tst.py"
+			],
+			[
+				"db_co",
+				"bot-store/bot/utils/db_api/db_commands.py"
+			],
+			[
+				"comma",
+				"bot-store/bot/utils/db_api/db_commands.py"
+			],
+			[
+				"p",
+				"handlers/admin/panel.py"
+			],
+			[
+				"dee",
+				"utils/db_api/seeds/database_seeder.py"
+			],
+			[
+				"conf",
+				"data/config.py"
+			],
+			[
+				"ts",
+				"tst.py"
+			],
+			[
+				".e",
+				".env"
+			],
+			[
+				"con",
+				"data/config.py"
+			],
+			[
+				"load",
+				"loader.py"
+			],
+			[
+				"user",
+				"utils/db_api/migrations/2021_02_08_151536_create_users_table.py"
+			],
+			[
+				"modesl",
+				"utils/db_api/models.py"
+			],
+			[
+				"cret",
+				"utils/db_api/migrations/2021_02_07_131126_create_items_table.py"
+			],
+			[
+				"catalo",
+				"bot/keyboards/inline/catalog_menu.py"
+			],
+			[
+				"ch",
+				"bot/keyboards/inline/choice_buttons.py"
+			],
+			[
+				"cretae",
+				"bot/utils/db_api/migrations/2021_02_07_131126_create_items_table.py"
+			],
+			[
+				"models",
+				"bot/utils/db_api/models.py"
+			],
+			[
+				"requ",
+				"bot/requirements.txt"
+			],
+			[
+				"bot",
+				"bot.py"
+			],
+			[
+				"exa",
+				"product/example.db"
+			],
+			[
+				"confi",
+				"product/config.ini"
+			],
+			[
+				"config",
+				"config.ini"
+			],
+			[
+				"al",
+				"product/al.py"
+			],
+			[
+				"main",
+				"product/main.py"
+			],
+			[
+				"mai",
+				"bot/main.todo"
+			],
+			[
+				"cli",
+				"cli.py"
+			],
+			[
+				"co",
+				"config/database.yml"
+			],
+			[
+				"mkdoc",
+				"libs/typer/mkdocs.yml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/work/lab/lab.sublime-project"
+			],
+			[
+				"lab",
+				"~/work/lab/lab.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 209.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
