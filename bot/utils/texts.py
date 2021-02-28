@@ -3,7 +3,7 @@
 info = "💬"
 from utils.db_api.models import Page
 
-hello_text = f"<b>🏪 Магазин в телеграме</b>"
+hello_text = f"<b>🏪️AutoShop ᗷᒪᐺᑢᖽᐸ°•ᖇᗩᗷᗷᓰᖶ</b>"
 
 def hello_text_body():
 	try:
