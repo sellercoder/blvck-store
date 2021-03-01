@@ -52,6 +52,7 @@ async def admin_edit_qiwi_page(call: CallbackQuery,state: FSMContext):
 async def sned_text(message: types.Message, state: FSMContext):
     token = Token.first()
     token.token = message.text
+    token.update()
     await state.update_data(token=token)
     await SetToken.set_phone.set()
     info_text = f"<b>Теперь мне нужен телефон от токена в формате +799... </b>"
@@ -60,7 +61,7 @@ async def sned_text(message: types.Message, state: FSMContext):
 @dp.message_handler(user_id=ADMIN_ID, state=SetToken.set_phone)
 async def sned_text(message: types.Message, state: FSMContext):
     data = await state.get_data()
-    token: Token = data.get("token")
+    token = Token.first()
     token.phone = message.text
     token.update()
     await state.reset_state()
