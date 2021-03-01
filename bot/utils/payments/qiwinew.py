@@ -3,17 +3,17 @@ import requests
 import json
 from utils.db_api.models import Bill
 
-phone = "79510131989"
+phone = "77779717706"
 
 api_url = "https://api.qiwi.com/partner/bill/v1/bills/"
 
 headers = {'Content-type': 'application/json','Accept': 'application/json',
-'Authorization': 'Bearer eyJ2ZXJzaW9uIjoiUDJQIiwiZGF0YSI6eyJwYXlpbl9tZXJjaGFudF9zaXRlX3VpZCI6InRpZWF3eC0wMCIsInVzZXJfaWQiOiI3OTUxMDEzMTk4OSIsInNlY3JldCI6ImJjMzczYWJhZjEyZGY3YWE1NjA1MjY5MjQ0N2FlYmZjNmJlZTU4ZDAzMWFlM2QyYTMyMjlkNTVhMzEzNWJlODIifX0='
+'Authorization': 'Bearer eyJ2ZXJzaW9uIjoiUDJQIiwiZGF0YSI6eyJwYXlpbl9tZXJjaGFudF9zaXRlX3VpZCI6Ing0ejVjZC0wMCIsInVzZXJfaWQiOiI3Nzc3OTcxNzcwNiIsInNlY3JldCI6IjJhZWY5OGRkNWZhMjBiNmNkZWI0OTBiZjJkYjU0ZGIwNDg0ZTAyMTMzMmY4OTU3M2Y5M2U1N2YyNWQ5ZTAzZDMifX0='
 }
 
 status_headers = {
     'Accept': 'application/json',
-    'Authorization': 'Bearer eyJ2ZXJzaW9uIjoiUDJQIiwiZGF0YSI6eyJwYXlpbl9tZXJjaGFudF9zaXRlX3VpZCI6InRpZWF3eC0wMCIsInVzZXJfaWQiOiI3OTUxMDEzMTk4OSIsInNlY3JldCI6ImJjMzczYWJhZjEyZGY3YWE1NjA1MjY5MjQ0N2FlYmZjNmJlZTU4ZDAzMWFlM2QyYTMyMjlkNTVhMzEzNWJlODIifX0='
+    'Authorization': 'Bearer eyJ2ZXJzaW9uIjoiUDJQIiwiZGF0YSI6eyJwYXlpbl9tZXJjaGFudF9zaXRlX3VpZCI6Ing0ejVjZC0wMCIsInVzZXJfaWQiOiI3Nzc3OTcxNzcwNiIsInNlY3JldCI6IjJhZWY5OGRkNWZhMjBiNmNkZWI0OTBiZjJkYjU0ZGIwNDg0ZTAyMTMzMmY4OTU3M2Y5M2U1N2YyNWQ5ZTAzZDMifX0='
 }
 
 def new_bill(value):

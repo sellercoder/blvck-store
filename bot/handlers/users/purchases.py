@@ -9,7 +9,7 @@ from loader import dp
 purchases_page_text = f"<b>🛒 Покупки</b>\n\n<code>💬 Здесь находится список всех ваших покупок. Выберите нужную для подробной информации.</code>"
 
 #` Хендлер для 📕 О магазине                                                             
-@dp.message_handler(Text(equals=["🛒 Покупки"]))
+@dp.message_handler(Text(equals=["📂 Покупки"]))
 async def show_menu(message: Message):
 	await list_purchases(message)
 

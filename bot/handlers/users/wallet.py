@@ -19,7 +19,7 @@ from loader import dp, bot
 
 line = "➖"*11
 info = "💬"
-wallet_page_text = f"<b>💳 Кошелек</b>\n\n"
+wallet_page_text = f"<b>💳 Баланс</b>\n\n"
 wallet_page_info_text = f"<code>💬 Для пополнения, выберите способ: </code>"
 
 def wallet_bill_text(comment):
@@ -32,7 +32,7 @@ def succes_payment_message(amount):
 
 
 #` Хендлер для 💳 Кошелек                                                             
-@dp.message_handler(Text(equals=["💳 Кошелек"]))
+@dp.message_handler(Text(equals=["💳 Баланс"]))
 async def menu(message: Message):
 	user_uid = message.chat.id
 	user = find_user(user_uid)
@@ -95,7 +95,7 @@ async def rtsr(call: CallbackQuery):
 		add_money(user_id,amount)
 		text=f"<b>Сумма {pp['amount']['value']} зачислена на ваш счет! Нажмите</b> /start" 
 		logger.info(f"text")
-		await state.reset_state()
+		#await state.reset_state()
 		await call.message.edit_text(text=text)
 
 

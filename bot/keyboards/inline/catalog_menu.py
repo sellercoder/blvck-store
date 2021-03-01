@@ -32,7 +32,7 @@ def categories_keyboard():
 def positions_keyboard(category):
     # Текущий уровень - 1
     CURRENT_LEVEL = 1
-    markup = InlineKeyboardMarkup()
+    markup = InlineKeyboardMarkup(row_width=1)
 
     positions = get_positions(category)
     for position in positions:

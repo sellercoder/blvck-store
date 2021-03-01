@@ -22,7 +22,7 @@ async def bot_start(message: types.Message):
 
 	user = find_user(uid)
 
-	text = f"{hello_text}\n\n{hello_text_body()}\n\n{user.wallet_info()}"
+	text = f"{hello_text}\n\n{hello_text_body}\n\n{user.wallet_info()}"
 
 	await message.answer(text=text, reply_markup=menu)
 	

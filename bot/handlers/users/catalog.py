@@ -10,10 +10,10 @@ from utils.db_api.models import Position, User
 from loader import dp
 
 #` Текст на странице каталог                                                             
-catalog_page_text = f"{catalog_text}\n\n{catalog_text_body()}\n\n<code>💬 Выберите категорию</code>"
+catalog_page_text = f"{catalog_text}\n\n{catalog_text_body}\n\n<code>💬 Выберите категорию</code>"
 
 #` Хендлер для 🗃 Каталог                                                                
-@dp.message_handler(Text(equals=["🗃 Каталог"]))
+@dp.message_handler(Text(equals=["🤙 Купить"]))
 async def show_menu(message: Message):
     await list_categories(message)
 
