@@ -4,10 +4,9 @@ from aiogram.utils.callback_data import CallbackData
 def wallet_keyboard():
 	
 	# Создаем клавиатуру
-	markup = InlineKeyboardMarkup(row_width=2)
-
-	qiwi_button = "🥝 Qiwi"
-	qiwi_new_button = "🥝 Qiwi New"
+	markup = InlineKeyboardMarkup(row_width=1)
+	qiwi_button = "🥝 Qiwi перевод"
+	qiwi_new_button = "QiwiP2P счёт"
 	cupon_button = "🎟 Ввести купон"
 	history_button = "📒 История платежей"
 	# 🎫
