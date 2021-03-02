@@ -11,7 +11,8 @@ from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.types import Message, CallbackQuery, ReplyKeyboardRemove
 from keyboards.inline.wallet_menu import wallet_keyboard, check_qiwi_pay_keyboard
 from utils.db_api.models import User
-from utils.db_api.db_commands import find_user, add_money, check_success_payment, add_payment, activate_coupon, get_token
+from utils.db_api.db_commands import find_user, add_money, check_success_payment, add_payment, activate_coupon
+from utils.db_api.admin_db_commands import get_token
 from utils.payments.qiwi import phone, create_bill, check_bill, get_payments
 from utils.payments.qiwinew import *
 
