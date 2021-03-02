@@ -11,7 +11,7 @@ from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.types import Message, CallbackQuery, ReplyKeyboardRemove
 from keyboards.inline.wallet_menu import wallet_keyboard, check_qiwi_pay_keyboard
 from utils.db_api.models import User
-from utils.db_api.db_commands import find_user, add_money, check_success_payment, add_payment, activate_coupon
+from utils.db_api.db_commands import find_user, add_money, check_success_payment, add_payment, activate_coupon, get_token
 from utils.payments.qiwi import phone, create_bill, check_bill, get_payments
 from utils.payments.qiwinew import *
 
@@ -23,7 +23,7 @@ wallet_page_text = f"<b>💳 Баланс</b>\n\n"
 wallet_page_info_text = f"<code>💬 Для пополнения, выберите способ: </code>"
 
 def wallet_bill_text(comment):
-	return f"{line}\n<b>◻️ Cпособ пополнения:</b> 🥝 Qiwi\n<b>◻️ Комментарий:</b> {comment}\n<b>◻️ Телефон:</b> {phone}\n{line}\n<code>💬 Переведите на указанный номер необходимую сумму. Обязательно укажите комментарий! После перевода, нажмите кнопку Проверить оплату.</code>"
+	return f"{line}\n<b>◻️ Cпособ пополнения:</b> 🥝 Qiwi\n<b>◻️ Комментарий:</b> {comment}\n<b>◻️ Телефон:</b> {get_token().phone}\n{line}\n<code>💬 Переведите на указанный номер необходимую сумму. Обязательно укажите комментарий! После перевода, нажмите кнопку Проверить оплату.</code>"
 
 def succes_payment_message(amount):
 	m = Money(amount, 'KZT')
