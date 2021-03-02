@@ -47,7 +47,7 @@ async def update_all(message: types.Message, state: FSMContext):
 	f = message.text.split("\n")
 	for line in f:
 		print(line)
-		Item.create(position_id=position_id, body="{line}")
+		Item.create(position_id=position_id, body=f"{line}")
 	await state.reset_state()
 	await message.answer(text="Товары загружены - жми /admin")
 
